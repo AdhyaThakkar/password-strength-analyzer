@@ -12,9 +12,11 @@ A Python CLI tool that analyzes the strength of a password and gives improvement
 
 ## DSA Concepts Used
 
-- **Set (HashSet)** — for O(1) breached password lookup
-- **Lists** — to count character types and collect suggestions
-- **List as queue** — to maintain a fixed-size password history
+- **HashSet (Set)** — enables constant-time O(1) lookup for breached passwords
+- **Lists / Arrays** — used for character classification and counting
+- **Queue-like List** — maintains fixed-size history with FIFO removal
+- **Iteration & Conditional Logic** — used for scoring and validation
+
 
 ## How to Run
 
